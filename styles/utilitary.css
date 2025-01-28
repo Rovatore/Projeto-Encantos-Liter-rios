@@ -3,3 +3,55 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
+
+
+.button-sm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 89px;
+  height: 40px;
+  border-radius: 8px;
+  text-decoration: none;
+    font: var(--button);
+  color: var(--text-title);
+  background-color: var(--pink-dark);
+  padding: 20px;
+  gap: 8px;
+
+}
+
+
+.button-lg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 224px;
+  height: 40px;
+  border-radius: 8px;
+  text-decoration: none;
+    font: var(--button);
+  color: var(--text-title);
+  background-color: var(--pink-dark);
+  padding: 20px;
+  gap: 8px;
+
+}
+
+
+
+.button-lg-blue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 224px;
+  height: 40px;
+  border-radius: 8px;
+  text-decoration: none;
+    font: var(--button);
+  color: var(--text-title);
+  background-color: var(--blue-dark);
+  padding: 20px;
+  gap: 8px;
+
+}

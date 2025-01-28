@@ -52,3 +52,6 @@
   --link: 500 14px var(--ff-base);
 
 }
+body{
+  background-color: var(--shape-background);
+}
