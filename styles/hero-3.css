@@ -1,0 +1,26 @@
+.hero-3-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+    padding-top: 235px;
+ 
+ & .hero-3-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 88px;
+    & div{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      gap: 16px;
+     
+      & img{
+       filter: drop-shadow(0px 1px 6px rgb(149, 71, 165, 0.6));
+      }
+    }
+  }
+}

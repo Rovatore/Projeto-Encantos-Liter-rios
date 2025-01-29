@@ -55,3 +55,17 @@
   gap: 8px;
 
 }
+.subtitle{
+  font: var(--subtitle);
+  color: var(--text-body);
+}
+
+.title-sm{
+  font: var(--title-sm);
+  color: var(--text-title);
+}
+
+.body-md{
+  font: var(--body-md);
+  color: var(--text-body);
+}
