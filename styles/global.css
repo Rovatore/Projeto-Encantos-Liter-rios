@@ -9,8 +9,8 @@
 
   --pink-light: #c59dd2;
   --pink-base: rgb(149, 71, 165);
-  --pink-dark: #7d29ba;
-  --pink-low: #3f0f41;
+  --pink-dark: rgb(125, 41, 186);
+  --pink-low: rgb(63, 15, 65);
 
   --blue-light: #73b6d2;
   --blue-base: #358bb9;
@@ -53,5 +53,6 @@
 
 }
 body{
-  background-color: var(--shape-background);
+  background: var(--shape-background);
 }
+
