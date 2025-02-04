@@ -1,0 +1,22 @@
+.hero-4-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;  
+  padding-top: 641px;
+  margin-top: 341px;
+ & .hero-4-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 88px;
+    & div{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      gap: 16px;
+    }
+  }
+}
