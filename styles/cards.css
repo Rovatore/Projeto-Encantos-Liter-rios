@@ -160,6 +160,20 @@
     transition: transform 1.5s ease, rotate 1s ease;
     width: 13px;
   }
+
+  
+  .img-card-6{
+    left: 55%;
+    top: 49px;
+    transition: transform 1.5s ease, rotate 1s ease;
+  }
+
+  
+  .img-card-7{
+    left: 50%;
+    top: 49px;  
+    transition: transform 1.5s ease, rotate 1s ease;
+  }
 }
 
 .hero-4-cards-anim:hover{
@@ -183,6 +197,15 @@
   
   .img-card-5{
     transform: translate(300px, 450px) rotate(-10deg);
+  }
+
+  
+  .img-card-6{
+    transform: translate(-615px, -40px) rotate(-75deg);
+  }
+  
+  .img-card-7{
+    transform: translate(365px, 450px) rotate(-10deg);
   }
   & .card-2{
     transform: translate(285px,50px) rotate(5deg);

@@ -5,6 +5,7 @@
   flex-direction: column;  
   padding-top: 641px;
   margin-top: 341px;
+  margin-bottom: 500px;
  & .hero-4-header{
     display: flex;
     align-items: center;

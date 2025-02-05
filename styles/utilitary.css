@@ -1,6 +1,3 @@
-.test-div{
-  margin-top: 500px;
-}
 
 .button-sm {
   display: flex;
@@ -77,4 +74,9 @@
 .body-xs {
   font: var(--body-xs);
   color: var(--text-body);
+}
+
+.link{
+  font: var(--link);
+  color: var(--blue-light);
 }
