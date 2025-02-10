@@ -97,7 +97,8 @@
 }
 & .card-alt{
   z-index: 1;
-  border: 1px solid var(--shape-stroke);
+  border: 0;
+  transition: border 1s ease;
   & .popular{
   & .title-xs{
   font: var(--title-xs);
@@ -170,8 +171,8 @@
 
   
   .img-card-7{
-    left: 50%;
-    top: 49px;  
+    left: 43%;
+    top: 100px;  
     transition: transform 1.5s ease, rotate 1s ease;
   }
 }
@@ -205,13 +206,18 @@
   }
   
   .img-card-7{
-    transform: translate(365px, 450px) rotate(-10deg);
+    transform: translate(455px, 415px) rotate(-10deg);
   }
   & .card-2{
     transform: translate(285px,50px) rotate(5deg);
   }
   & .card-3{
     transform: translate(-285px,50px) rotate(-5deg);
+  }
+
+  .card-alt{
+  border: 1px solid var(--shape-stroke);
+    
   }
 }
 & .card:hover{

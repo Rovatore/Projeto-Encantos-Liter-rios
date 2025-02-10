@@ -31,10 +31,13 @@ footer{
       width: 100%;
       align-items: center;
       justify-content: space-between;
-
-      & img{
-       padding: 12px;
+      & a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
       }
+      
     }
   }
   .footer-content-div{
@@ -61,5 +64,20 @@ footer{
     background-size: cover;
     background-position: center;
     z-index: -1;
+  }
+}
+.socials{
+  & a:hover{
+    background-color: var(--shape-stroke);
+    border-radius: 9999px;
+    & path{
+      fill: var(--text-body);
+    }
+  }
+}
+
+.footer-content{
+  & a:hover{
+    color: var(--blue-light);
   }
 }
