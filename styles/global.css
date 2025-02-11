@@ -57,4 +57,25 @@
 body{
   background: var(--shape-background);
 }
+ .desktop-only{
+    display: initial;
+  }
 
+  .mobile-only{
+    display: none;
+  }
+
+@media (width <= 39rem){
+  .desktop-only{
+    display: none;
+  }
+
+  .mobile-only{
+    display: initial;
+
+  }
+
+  * { 
+     --subtitle: 500 16px/140% var(--ff-base);
+  }
+}

@@ -80,3 +80,11 @@
   font: var(--link);
   color: var(--blue-base);
 }
+
+@media (width <= 39rem){
+
+  .title-lg{
+  font: var(--title-md);
+  color: var(--text-title);
+  }
+}
