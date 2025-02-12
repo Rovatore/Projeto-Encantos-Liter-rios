@@ -147,3 +147,97 @@
      transform: translate(-250px, -185px) scale(1);
     }
     }
+    @media (width <= 39rem){
+    
+      .hero-3-div-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+     
+
+        .hero-3-header{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          margin-bottom: 108px;
+          & h2{
+            text-align: center;
+            text-wrap: nowrap;
+            font: var(--title-xsm);
+          }
+          & img{
+            width: 20px;
+          }
+        }
+      }
+
+       & .hero-3-anim-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 108px;
+        margin-bottom: 400px;
+        position: relative;
+        
+        & img{
+          position: absolute;
+          width: 25%;
+        }
+
+        & p{
+          position: absolute;
+          font: var(--body-xxs);
+        }
+          & img:nth-child(1){
+        width: 157px;   
+        
+        z-index: 2;
+      }
+
+        & img:nth-child(2){
+          width: 65px;
+          transform: translate(85px, -40px) rotate(10deg);
+        }
+        & img:nth-child(3){
+          width: 65px;
+          z-index: -1;
+          transform: translate(125px, -15px) rotate(25deg);
+        }
+
+        & img:nth-child(4){
+          width: 74px;
+          transform: translate(-85px, 85px) rotate(-7.55deg);
+        }
+
+        & img:nth-child(5){
+          transform: translate(-95px, -120px) rotate(20deg);
+        }
+
+        & img:nth-child(6){
+          transform: translate(85px, 120px);
+        }
+        & img:nth-child(7){
+          width: 65px;
+          transform: translate(-125px, -5px);
+        }
+        & p:nth-child(8){
+          transform: translate(-125px, -150px);
+        }
+        
+        & p:nth-child(9){
+          transform: translate(50px, 185px);
+        }
+
+        & p:nth-child(10){
+          transform: translate(-130px, -65px);
+        }
+      }
+
+    }
